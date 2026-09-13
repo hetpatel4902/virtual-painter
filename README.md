@@ -18,18 +18,4 @@ The application detects the marker based on its color, tracks its position in re
 
 The application processes each frame captured from the webcam through the following pipeline:
 
-Webcam Frame
-     ↓
-BGR → HSV Conversion
-     ↓
-Color Range Filtering
-     ↓
-Binary Mask
-     ↓
-Contour Detection
-     ↓
-Marker Position Detection
-     ↓
-Coordinate Tracking
-     ↓
-Virtual Drawing
+Webcam Frame → BGR to HSV Conversion → Color Range Filtering → Binary Mask → Contour Detection → Marker Position Detection → Coordinate Tracking → Virtual Drawing
