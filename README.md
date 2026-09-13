@@ -107,12 +107,3 @@ virtual-painter/
 Virtual Painter was developed as an early exploration of computer vision and real-time image processing using OpenCV.
 
 The project demonstrates how webcam input, color segmentation, contour detection, and coordinate tracking can be combined to create an interactive computer-vision application.
-
-## 🔮 Possible Improvements
-
-- Add dynamic color calibration
-- Add an eraser mode
-- Add brush-size controls
-- Add support for saving drawings
-- Improve tracking stability under different lighting conditions
-- Add a dedicated virtual canvas instead of drawing directly on the camera frame
